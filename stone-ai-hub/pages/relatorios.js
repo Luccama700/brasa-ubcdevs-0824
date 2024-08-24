@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function relatorios() {
   return (
-    <div>relatorios</div>
+    <div>
+      <div className="venda-grafico">
+      </div>
+      <div className="clientes">
+        
+      </div>
+    </div>
   )
 }
