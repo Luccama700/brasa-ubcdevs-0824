@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 
 const Page = () => {
 
     return (
-     <div>Hello World!</div>
+      <div className="App">
+      hello lucca
+    </div>
     );
   };
 
