@@ -1,0 +1,89 @@
+
+
+.login-container {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .login-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  .login-right {
+    flex: 1;
+    background-color: #00a868; 
+  }
+  
+  .login-form {
+    max-width: 400px; 
+    width: 100%;
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 18px; /* Optional: rounded corners */
+    text-align: center;
+  }
+
+  .login_icon{
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .log_in {
+    width: 100%;
+    padding: 10px;
+    background-color: #00a868;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0px;
+    transition: 0.3s;
+  }
+  
+  .log_in:hover{
+    background-color: white;
+    color:#00a868;
+    border: 1px solid #00a868;
+    
+  }
+  .sign_in {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #00a868;
+    border: 1px solid #00a868;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0px;
+    transition: 0.3s;
+  }
+
+  .sign_in:hover{
+    background-color: #00a868;
+    color: white;
+  }
+
+
+  
